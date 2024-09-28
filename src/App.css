@@ -6,6 +6,57 @@
   height: 40vmin;
   pointer-events: none;
 }
+.img_size {
+  width: 100vw;
+  height: 400px; /* Maintain aspect ratio */
+}
+h3.title-txt {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 33px;
+  color: #000;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+h3.title-txt span {
+  color: #93c83f;
+}
+.size{
+  width: 18rem;
+  height: 200px;
+}
+.s1{
+  width: 18rem;
+}
+.mt{
+  margin-top: 15px;
+}
+.s2{
+  font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .img_size {
+    width: 100vw;  /* Full width of the viewport */
+    height: 150px;  /* Maintain aspect ratio */
+  }
+  .size{
+    width: 15rem;
+  }
+  .s1{
+    width: 15rem;
+  }
+  .rs-mb{
+    margin-bottom: 10px;
+  }
+  .mt{
+    margin-top: 0px;
+  }
+  .s2{
+    font-size: 14px;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
