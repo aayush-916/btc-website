@@ -1,4 +1,4 @@
-import camera from "./camera_logo.png";
+
 import "./App.css"
 function Nav() {
   return (
@@ -30,7 +30,7 @@ function Nav() {
           {/* Right Section (Social Media Icons) */}
           <div className="tw-flex tw-justify-start lg:tw-justify-end tw-space-x-4 lg:tw-w-1/3">
             <a
-              href="#"
+              href="/f"
               target="_blank"
               rel="noopener noreferrer"
               className="tw-text-white"
@@ -38,7 +38,7 @@ function Nav() {
               <i className="fab fa-facebook"></i>
             </a>
             <a
-              href="#"
+              href="/f"
               target="_blank"
               rel="noopener noreferrer"
               className="tw-text-white"
@@ -46,7 +46,7 @@ function Nav() {
               <i className="fab fa-twitter"></i>
             </a>
             <a
-              href="#"
+              href="/f"
               target="_blank"
               rel="noopener noreferrer"
               className="tw-text-white"
@@ -54,7 +54,7 @@ function Nav() {
               <i className="fab fa-instagram"></i>
             </a>
             <a
-              href=""
+              href="/insta"
               target="_blank"
               rel="noopener noreferrer"
               className="tw-text-white"
@@ -96,7 +96,7 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/home">
                   HOME
                 </a>
               </li>
@@ -117,7 +117,7 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/solution">
                   SOLUTIONS
                 </a>
               </li>
