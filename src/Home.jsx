@@ -1,7 +1,6 @@
 import Nav from "./Nav";
 import Products from "./Products";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { BrowserRouter as Router ,Route , Routes } from 'react-router-dom';
 import "./App.css";
 import { FaShieldAlt, FaAward, FaUsers, FaLifeRing } from "react-icons/fa";
 
@@ -52,7 +51,7 @@ function Home() {
               alt="First slide"
             />
             <div className="carousel-caption  d-md-block">
-            <a className='btn btn-danger  mb' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+            <p  className='btn btn-danger  mb' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
       </div>
           </div>
           

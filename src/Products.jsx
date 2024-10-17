@@ -58,7 +58,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">Day/Night CCTV Camera</p>
                 </div>
-                <a className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
 
@@ -73,7 +73,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">Extra Zoom Camera</p>
                 </div>
-                <a className='btn btn-danger ' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger ' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
 
@@ -88,7 +88,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">Wireless CCTV Cameras</p>
                 </div>
-                <a className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">Network/IP CCTV Cameras</p>
                 </div>
-                <a className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
 
@@ -121,7 +121,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">Night Vision CCTV Camera</p>
                 </div>
-                <a className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
 
@@ -136,7 +136,7 @@ function Products() {
                 <div className="card-body">
                   <p className="card-text">High Definition (HD) CCTV Camera</p>
                 </div >
-                <a className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</a>
+                <p className='btn btn-danger' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book now</p>
               </div>
             </div>
           </div>
