@@ -19,6 +19,10 @@ h3.title-txt {
   letter-spacing: 2px;
   margin-top: 50px;
 }
+.mb{
+  margin-left: 10.5rem;
+  margin-bottom: 4rem;
+}
 h3.title-txt span {
   color: #93c83f;
 }
@@ -35,8 +39,20 @@ h3.title-txt span {
 .s2{
   font-size: 20px;
 }
+.btt{
+  display: block;
+  width: 10rem;
+  margin: auto;
+}
 
 @media (max-width: 400px) {
+  .mb{
+    margin-left: 50px;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+    padding: 4.5px;
+  }
+
   .img_size {
     width: 100vw;  /* Full width of the viewport */
     height: 150px;  /* Maintain aspect ratio */

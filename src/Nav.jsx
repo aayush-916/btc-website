@@ -3,7 +3,7 @@ import "./App.css"
 function Nav() {
   return (
     <>
-      <div className="tw-bg-[#353535] tw-py-4 tw-px-4">
+      <div className="tw-bg-[#353535] tw-py-4 tw-px-4 " id="home">
         {/* Flex container with responsiveness */}
         <div className="tw-flex tw-flex-col lg:tw-flex-row tw-items-start lg:tw-items-center tw-space-y-2 lg:tw-space-y-0 lg:tw-justify-between">
           {/* Left Section (Call Info) */}
@@ -74,7 +74,7 @@ function Nav() {
       </div>
 
 
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
           <p
             className="navbar-brand s2 tw-text-[#1a237e] tw-font-semibold"
@@ -117,7 +117,7 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/solution">
+                <a className="nav-link" href="#home">
                   SOLUTIONS
                 </a>
               </li>
